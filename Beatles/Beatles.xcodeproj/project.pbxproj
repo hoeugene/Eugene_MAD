@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C59E63A1D81E03400A113D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59E6391D81E03400A113D8 /* AppDelegate.swift */; };
+		1C59E63C1D81E03400A113D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59E63B1D81E03400A113D8 /* ViewController.swift */; };
+		1C59E63F1D81E03400A113D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C59E63D1D81E03400A113D8 /* Main.storyboard */; };
+		1C59E6411D81E03400A113D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C59E6401D81E03400A113D8 /* Assets.xcassets */; };
+		1C59E6441D81E03400A113D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C59E6421D81E03400A113D8 /* LaunchScreen.storyboard */; };
+		1C59E64F1D81E03400A113D8 /* BeatlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59E64E1D81E03400A113D8 /* BeatlesTests.swift */; };
+		1C59E65A1D81E03400A113D8 /* BeatlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59E6591D81E03400A113D8 /* BeatlesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C59E64B1D81E03400A113D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C59E62E1D81E03300A113D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C59E6351D81E03300A113D8;
+			remoteInfo = Beatles;
+		};
+		1C59E6561D81E03400A113D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C59E62E1D81E03300A113D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C59E6351D81E03300A113D8;
+			remoteInfo = Beatles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C59E6361D81E03300A113D8 /* Beatles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beatles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C59E6391D81E03400A113D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C59E63B1D81E03400A113D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C59E63E1D81E03400A113D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C59E6401D81E03400A113D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C59E6431D81E03400A113D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C59E6451D81E03400A113D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C59E64A1D81E03400A113D8 /* BeatlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C59E64E1D81E03400A113D8 /* BeatlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatlesTests.swift; sourceTree = "<group>"; };
+		1C59E6501D81E03400A113D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C59E6551D81E03400A113D8 /* BeatlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C59E6591D81E03400A113D8 /* BeatlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatlesUITests.swift; sourceTree = "<group>"; };
+		1C59E65B1D81E03400A113D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C59E6331D81E03300A113D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C59E6471D81E03400A113D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C59E6521D81E03400A113D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C59E62D1D81E03300A113D8 = {
+			isa = PBXGroup;
+			children = (
+				1C59E6381D81E03300A113D8 /* Beatles */,
+				1C59E64D1D81E03400A113D8 /* BeatlesTests */,
+				1C59E6581D81E03400A113D8 /* BeatlesUITests */,
+				1C59E6371D81E03300A113D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C59E6371D81E03300A113D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C59E6361D81E03300A113D8 /* Beatles.app */,
+				1C59E64A1D81E03400A113D8 /* BeatlesTests.xctest */,
+				1C59E6551D81E03400A113D8 /* BeatlesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C59E6381D81E03300A113D8 /* Beatles */ = {
+			isa = PBXGroup;
+			children = (
+				1C59E6391D81E03400A113D8 /* AppDelegate.swift */,
+				1C59E63B1D81E03400A113D8 /* ViewController.swift */,
+				1C59E63D1D81E03400A113D8 /* Main.storyboard */,
+				1C59E6401D81E03400A113D8 /* Assets.xcassets */,
+				1C59E6421D81E03400A113D8 /* LaunchScreen.storyboard */,
+				1C59E6451D81E03400A113D8 /* Info.plist */,
+			);
+			path = Beatles;
+			sourceTree = "<group>";
+		};
+		1C59E64D1D81E03400A113D8 /* BeatlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C59E64E1D81E03400A113D8 /* BeatlesTests.swift */,
+				1C59E6501D81E03400A113D8 /* Info.plist */,
+			);
+			path = BeatlesTests;
+			sourceTree = "<group>";
+		};
+		1C59E6581D81E03400A113D8 /* BeatlesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C59E6591D81E03400A113D8 /* BeatlesUITests.swift */,
+				1C59E65B1D81E03400A113D8 /* Info.plist */,
+			);
+			path = BeatlesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C59E6351D81E03300A113D8 /* Beatles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C59E65E1D81E03400A113D8 /* Build configuration list for PBXNativeTarget "Beatles" */;
+			buildPhases = (
+				1C59E6321D81E03300A113D8 /* Sources */,
+				1C59E6331D81E03300A113D8 /* Frameworks */,
+				1C59E6341D81E03300A113D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beatles;
+			productName = Beatles;
+			productReference = 1C59E6361D81E03300A113D8 /* Beatles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C59E6491D81E03400A113D8 /* BeatlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C59E6611D81E03400A113D8 /* Build configuration list for PBXNativeTarget "BeatlesTests" */;
+			buildPhases = (
+				1C59E6461D81E03400A113D8 /* Sources */,
+				1C59E6471D81E03400A113D8 /* Frameworks */,
+				1C59E6481D81E03400A113D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C59E64C1D81E03400A113D8 /* PBXTargetDependency */,
+			);
+			name = BeatlesTests;
+			productName = BeatlesTests;
+			productReference = 1C59E64A1D81E03400A113D8 /* BeatlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C59E6541D81E03400A113D8 /* BeatlesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C59E6641D81E03400A113D8 /* Build configuration list for PBXNativeTarget "BeatlesUITests" */;
+			buildPhases = (
+				1C59E6511D81E03400A113D8 /* Sources */,
+				1C59E6521D81E03400A113D8 /* Frameworks */,
+				1C59E6531D81E03400A113D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C59E6571D81E03400A113D8 /* PBXTargetDependency */,
+			);
+			name = BeatlesUITests;
+			productName = BeatlesUITests;
+			productReference = 1C59E6551D81E03400A113D8 /* BeatlesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C59E62E1D81E03300A113D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eugene Ho";
+				TargetAttributes = {
+					1C59E6351D81E03300A113D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1C59E6491D81E03400A113D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1C59E6351D81E03300A113D8;
+					};
+					1C59E6541D81E03400A113D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1C59E6351D81E03300A113D8;
+					};
+				};
+			};
+			buildConfigurationList = 1C59E6311D81E03300A113D8 /* Build configuration list for PBXProject "Beatles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C59E62D1D81E03300A113D8;
+			productRefGroup = 1C59E6371D81E03300A113D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C59E6351D81E03300A113D8 /* Beatles */,
+				1C59E6491D81E03400A113D8 /* BeatlesTests */,
+				1C59E6541D81E03400A113D8 /* BeatlesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C59E6341D81E03300A113D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C59E6441D81E03400A113D8 /* LaunchScreen.storyboard in Resources */,
+				1C59E6411D81E03400A113D8 /* Assets.xcassets in Resources */,
+				1C59E63F1D81E03400A113D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C59E6481D81E03400A113D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C59E6531D81E03400A113D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C59E6321D81E03300A113D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C59E63C1D81E03400A113D8 /* ViewController.swift in Sources */,
+				1C59E63A1D81E03400A113D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C59E6461D81E03400A113D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C59E64F1D81E03400A113D8 /* BeatlesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C59E6511D81E03400A113D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C59E65A1D81E03400A113D8 /* BeatlesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C59E64C1D81E03400A113D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C59E6351D81E03300A113D8 /* Beatles */;
+			targetProxy = 1C59E64B1D81E03400A113D8 /* PBXContainerItemProxy */;
+		};
+		1C59E6571D81E03400A113D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C59E6351D81E03300A113D8 /* Beatles */;
+			targetProxy = 1C59E6561D81E03400A113D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C59E63D1D81E03400A113D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C59E63E1D81E03400A113D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C59E6421D81E03400A113D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C59E6431D81E03400A113D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C59E65C1D81E03400A113D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C59E65D1D81E03400A113D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C59E65F1D81E03400A113D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Beatles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLS.Beatles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1C59E6601D81E03400A113D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Beatles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLS.Beatles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1C59E6621D81E03400A113D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeatlesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLS.BeatlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beatles.app/Beatles";
+			};
+			name = Debug;
+		};
+		1C59E6631D81E03400A113D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeatlesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLS.BeatlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beatles.app/Beatles";
+			};
+			name = Release;
+		};
+		1C59E6651D81E03400A113D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeatlesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLS.BeatlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Beatles;
+			};
+			name = Debug;
+		};
+		1C59E6661D81E03400A113D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeatlesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLS.BeatlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Beatles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C59E6311D81E03300A113D8 /* Build configuration list for PBXProject "Beatles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C59E65C1D81E03400A113D8 /* Debug */,
+				1C59E65D1D81E03400A113D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C59E65E1D81E03400A113D8 /* Build configuration list for PBXNativeTarget "Beatles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C59E65F1D81E03400A113D8 /* Debug */,
+				1C59E6601D81E03400A113D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C59E6611D81E03400A113D8 /* Build configuration list for PBXNativeTarget "BeatlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C59E6621D81E03400A113D8 /* Debug */,
+				1C59E6631D81E03400A113D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C59E6641D81E03400A113D8 /* Build configuration list for PBXNativeTarget "BeatlesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C59E6651D81E03400A113D8 /* Debug */,
+				1C59E6661D81E03400A113D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C59E62E1D81E03300A113D8 /* Project object */;
+}
