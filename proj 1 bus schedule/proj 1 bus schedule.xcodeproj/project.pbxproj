@@ -10,8 +10,6 @@
 		1C421A781DAB1705006A1FB7 /* busTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C421A771DAB1705006A1FB7 /* busTableViewCell.swift */; };
 		1C421A7A1DAB482F006A1FB7 /* bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C421A791DAB482F006A1FB7 /* bus.swift */; };
 		1C421A7C1DAB57A0006A1FB7 /* busTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C421A7B1DAB57A0006A1FB7 /* busTableViewController.swift */; };
-		1C715FFE1DACCDC700704E29 /* bus2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C715FFD1DACCDC700704E29 /* bus2.swift */; };
-		1C7160001DACCEE000704E29 /* bus2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C715FFF1DACCEE000704E29 /* bus2TableViewController.swift */; };
 		1CCE72991D9C88FF003D6071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCE72981D9C88FF003D6071 /* AppDelegate.swift */; };
 		1CCE729B1D9C88FF003D6071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCE729A1D9C88FF003D6071 /* ViewController.swift */; };
 		1CCE729E1D9C88FF003D6071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCE729C1D9C88FF003D6071 /* Main.storyboard */; };
@@ -42,8 +40,6 @@
 		1C421A771DAB1705006A1FB7 /* busTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = busTableViewCell.swift; sourceTree = "<group>"; };
 		1C421A791DAB482F006A1FB7 /* bus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bus.swift; sourceTree = "<group>"; };
 		1C421A7B1DAB57A0006A1FB7 /* busTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = busTableViewController.swift; sourceTree = "<group>"; };
-		1C715FFD1DACCDC700704E29 /* bus2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bus2.swift; sourceTree = "<group>"; };
-		1C715FFF1DACCEE000704E29 /* bus2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = bus2TableViewController.swift; path = "proj 1 bus schedule/bus2TableViewController.swift"; sourceTree = "<group>"; };
 		1CCE72951D9C88FE003D6071 /* proj 1 bus schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "proj 1 bus schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCE72981D9C88FF003D6071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CCE729A1D9C88FF003D6071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,8 +83,6 @@
 		1CCE728C1D9C88FE003D6071 = {
 			isa = PBXGroup;
 			children = (
-				1C715FFD1DACCDC700704E29 /* bus2.swift */,
-				1C715FFF1DACCEE000704E29 /* bus2TableViewController.swift */,
 				1CCE72971D9C88FE003D6071 /* proj 1 bus schedule */,
 				1CCE72AC1D9C88FF003D6071 /* proj 1 bus scheduleTests */,
 				1CCE72B71D9C88FF003D6071 /* proj 1 bus scheduleUITests */,
@@ -275,9 +269,7 @@
 				1C421A781DAB1705006A1FB7 /* busTableViewCell.swift in Sources */,
 				1C421A7C1DAB57A0006A1FB7 /* busTableViewController.swift in Sources */,
 				1C421A7A1DAB482F006A1FB7 /* bus.swift in Sources */,
-				1C7160001DACCEE000704E29 /* bus2TableViewController.swift in Sources */,
 				1CCE72991D9C88FF003D6071 /* AppDelegate.swift in Sources */,
-				1C715FFE1DACCDC700704E29 /* bus2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
