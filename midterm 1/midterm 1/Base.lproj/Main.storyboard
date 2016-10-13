@@ -85,7 +85,7 @@
                                     <action selector="changeActivity:" destination="BYZ-38-t0r" eventType="valueChanged" id="GX6-Qg-EwR"/>
                                 </connections>
                             </segmentedControl>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="run" translatesAutoresizingMaskIntoConstraints="NO" id="8t0-SV-frK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="run" translatesAutoresizingMaskIntoConstraints="NO" id="8t0-SV-frK">
                                 <rect key="frame" x="172" y="344" width="256" height="246"/>
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0m7-lV-lEr">
@@ -182,7 +182,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WmD-xY-3ig">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
-                                    <barButtonItem title="Item" id="shR-qJ-fNA"/>
+                                    <barButtonItem title="Back" id="shR-qJ-fNA">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="JsL-UC-4kN"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqv-Ge-umz">
