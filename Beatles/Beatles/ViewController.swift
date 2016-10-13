@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var capitalSwitch: UISwitch!
     @IBOutlet weak var fontSizeLabel: UILabel!
     
+    
     @IBAction func updateCaps() {
         if capitalSwitch.on {
             titlelabel.text=titlelabel.text?.uppercaseString
