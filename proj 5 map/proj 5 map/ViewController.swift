@@ -15,6 +15,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var mapView: MKMapView!
     
     var locationManager = CLLocationManager()
+    let annotation = MKPointAnnotation()
     
     override func viewDidLoad() {
         mapView.mapType = MKMapType.Satellite
@@ -25,6 +26,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.distanceFilter = kCLDistanceFilterNone // Distance device must move to update
+        mapView.showsUserLocation=true
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -35,6 +37,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let span = MKCoordinateSpanMake(0.05, 0.05)
         let region = MKCoordinateRegionMake(manager.location!.coordinate,span)
         mapView.setRegion(region, animated: true)
+        
+        annotation.coordinate=manager.location!.coordinate
+        annotation.title="Your location"
+//        annotation.subtitle="Latitude: \(manager.location!.coordinate.latitude), Longitude: \(manager.location!.coordinate.longitude)"
+        annotation.subtitle=String(format: "Latitude: %.02f Longitude: %.02f", (manager.location!.coordinate.latitude), (manager.location!.coordinate.longitude))
+        mapView.addAnnotation(annotation)
+        
     }
     
     // Ask for authorization

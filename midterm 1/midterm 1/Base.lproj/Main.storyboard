@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -85,8 +86,11 @@
                                     <action selector="changeActivity:" destination="BYZ-38-t0r" eventType="valueChanged" id="GX6-Qg-EwR"/>
                                 </connections>
                             </segmentedControl>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="run" translatesAutoresizingMaskIntoConstraints="NO" id="8t0-SV-frK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="run" translatesAutoresizingMaskIntoConstraints="NO" id="8t0-SV-frK">
                                 <rect key="frame" x="172" y="344" width="256" height="246"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8t0-SV-frK" secondAttribute="height" multiplier="128:123" id="aEq-HN-lhY"/>
+                                </constraints>
                             </imageView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0m7-lV-lEr">
                                 <rect key="frame" x="182" y="567" width="600" height="44"/>
