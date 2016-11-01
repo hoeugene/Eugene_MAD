@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Feelings</string>
+    <string name="name_edit">Name</string>
+    <string name="mood_button">Mood</string>
+    <string name="feeling">feeling</string>
+
+    <string name="toggle_on">Positive</string>
+    <string name="toggle_off">Negative</string>
+    <string name="med">Meditate</string>
+    <string name="radioGroup">Yoga</string>
+    <string name="radioButton1">Yin</string>
+    <string name="radioButton2">Bikram</string>
+    <string name="radioButton3">Hatha</string>
+
+    <string name="checkBox1">sarcastic</string>
+    <string name="checkBox2">secretive</string>
+    <string name="checkBox3">conservative</string>
+
+    <string-array name="moods_spinner">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Super-Happy</item>
+        <item>Super-Super-Happy</item>
+    </string-array>
+
+
+</resources>
