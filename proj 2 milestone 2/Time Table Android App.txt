@@ -1,0 +1,1 @@
+Time Table Android AppAfter consulting fellow classmates app will not take and store userÕs class info and display them in the timetable.User flow: Opens app -> timetable filled with info from strings.xml -> tap lower right button -> select display options -> schedule displayed in selected display preference
