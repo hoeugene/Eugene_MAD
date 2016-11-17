@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eugene.proj2milestone3.MainActivity"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="*">
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                    android:id="@+id/Mon8am"
+                    android:text="@string/physics"
+                    android:layout_height="wrap_content"
+                    android:layout_width="60dp"
+                    android:background="@drawable/whiteblock"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:onClick="findClassInfo" />
+                </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+                <TextView
+                    android:text="@string/eightAM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:paddingTop="8dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/holo_blue_light"
+                    android:alpha="0.5" />
+            </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue8am"
+                        android:text="@string/physics"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/eightAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed8am"
+                        android:text="@string/physics"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/eightAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu8am"
+                        android:text="@string/physics"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/eightAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri8am"
+                        android:text="@string/physics"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/eightAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon9am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/nineAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue9am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/nineAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed9am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/nineAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu9am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/nineAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri9am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/nineAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon10am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/tenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue10am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/tenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed10am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/tenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu10am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/tenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri10am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/tenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon11am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/elevenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue11am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/elevenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed11am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/elevenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu11am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/elevenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri11am"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/elevenAM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon12pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twelvePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue12pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twelvePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed3pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twelvePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu12pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twelvePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri11pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twelvePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon1pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/onePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue1pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/onePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed1pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/onePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu1pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/onePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri1pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/onePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon2pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twoPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue2pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twoPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed2pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twoPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu2pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twoPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri2pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/twoPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon3pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/threePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue3pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/threePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed3pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/threePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu3pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/threePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri3pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/threePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon4pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fourPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue4pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fourPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed4pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fourPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu4pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fourPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri4pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fourPM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Mon5pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fivePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Tue5pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fivePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Wed5pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fivePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Thu5pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fivePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/Fri5pm"
+                        android:text="@string/empty"
+                        android:layout_height="wrap_content"
+                        android:layout_width="60dp"
+                        android:background="@drawable/whiteblock"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        style="@style/Widget.AppCompat.Button.Small"
+                        android:onClick="findClassInfo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+                    <TextView
+                        android:text="@string/fivePM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textAlignment="center"
+                        android:paddingTop="8dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:alpha="0.5" />
+                </LinearLayout>
+            </RelativeLayout>
+        </TableRow>
+
+
+
+
+    </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

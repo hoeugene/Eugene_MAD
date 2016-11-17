@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">proj2milestone3</string>
+    <string name="physics">PHY 101 \nDUANE 111</string>
+    <string name="empty">"free"</string>
+    <string name="physics_info">Prof. X blah blah blah</string>
+
+
+    <string name="eightAM">8:00am</string>
+    <string name="nineAM">9:00am</string>
+    <string name="tenAM">10:00am</string>
+    <string name="elevenAM">11:00am</string>
+    <string name="twelvePM">12:00pm</string>
+    <string name="onePM">1:00pm</string>
+    <string name="twoPM">2:00pm</string>
+    <string name="threePM">3:00pm</string>
+    <string name="fourPM">4:00pm</string>
+    <string name="fivePM">5:00pm</string>
+</resources>
