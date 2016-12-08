@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ice Cream</string>
+    <string name="title">I scream for Ice Cream</string>
+    <string name="dairy">Dairy-free</string>
+    <string name="button">TREAT ME</string>
+    <string-array name="flavors">
+        <item>death by chocolate</item>
+        <item>salted caramel</item>
+        <item>cookies and cream</item>
+    </string-array>
+    <string name="cup">CUP</string>
+    <string name="cone">CONE</string>
+    <string name="find_button">FIND TREAT</string>
+    <string name="sprinkles">sprinkles</string>
+    <string name="hot_fudge">hot fudge</string>
+    <string name="nuts">nuts</string>
+    <string name="ice_cream">ice cream</string>
+    <string name="frozen_yogurt">frozen yogurt</string>
+    <string name="gelato">gelato</string>
+
+
+</resources>
